@@ -1,16 +1,19 @@
-# chatapp
+![image](https://user-images.githubusercontent.com/64303401/121554814-171dc500-ca30-11eb-96c0-ee0dce0fceb3.png)
 
-A new Flutter project.
+Hello Guys , this is my first ever complete flutter project with using firebase as a backend
+I just leanred flutter two week and wanted to share this project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+This is just a basic chat app with basic functionality like chatting and login/signup functionality.
 
-A few resources to get you started if this is your first Flutter project:
+I hope You all Like it. :)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+LogIn Page 
+![Screenshot_2021-06-10-21-10-50-78_b3ea34c16bda908d2c364f93b01312fe](https://user-images.githubusercontent.com/64303401/121555439-a3c88300-ca30-11eb-9a11-3b5969f5927a.png)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Sign Up Page
+![Screenshot_2021-06-10-21-11-03-67_b3ea34c16bda908d2c364f93b01312fe](https://user-images.githubusercontent.com/64303401/121555451-a5924680-ca30-11eb-8fad-8a9f2f8cdc84.png)
+
+Chat Screen with Your Image as an avatar and background image can be changed if u want your own , You can go to chatscreen and just paste your url in their of your own backgorund
+![Screenshot_2021-06-10-21-11-30-70_b3ea34c16bda908d2c364f93b01312fe](https://user-images.githubusercontent.com/64303401/121555458-a7f4a080-ca30-11eb-9e3f-63967e3ae0ba.png)
+
