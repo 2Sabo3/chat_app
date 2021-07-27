@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:chatapp/Screens/forgotpass_screen.dart';
 import 'package:chatapp/Widgets/image_picker/cricle_avatar.dart';
 import 'package:flutter/material.dart';
 
@@ -138,6 +139,20 @@ class _AuthformState extends State<Authform> {
                         onPressed: trysubmit,
                         child: Text(
                           isLogin ? 'Login' : 'SignUp',
+                          style: TextStyle(color: Colors.white),
+                        ),
+                      ),
+                    if (isLogin)
+                      // ignore: deprecated_member_use
+                      FlatButton(
+                        onPressed: () {
+                          Navigator.of(context).push(
+                            MaterialPageRoute(
+                                builder: (context) => ForgotPassword()),
+                          );
+                        },
+                        child: Text(
+                          'Forgot Password',
                           style: TextStyle(color: Colors.white),
                         ),
                       ),

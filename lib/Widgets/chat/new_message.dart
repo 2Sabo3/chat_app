@@ -30,6 +30,8 @@ class _NewMessageState extends State<NewMessage> {
     controller.clear();
   }
 
+  
+
   @override
   Widget build(BuildContext context) {
     return Container(
