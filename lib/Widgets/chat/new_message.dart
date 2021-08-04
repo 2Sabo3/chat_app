@@ -27,10 +27,13 @@ class _NewMessageState extends State<NewMessage> {
         'userimage': userdata['image_url'],
       },
     );
-    controller.clear();
   }
 
-  
+  @override
+  void initState() {
+    controller.clear();
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
